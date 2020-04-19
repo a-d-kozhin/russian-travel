@@ -1,0 +1,12 @@
+@import url(../logo/_place/logo_place_header.css);
+
+.logo {
+  background-image: url(../../images/header-logo.svg);
+  background-repeat: no-repeat;
+  object-fit: contain;
+  z-index: 2;
+  width: 100%;
+  min-width: 176px;
+  min-height: 52px;
+
+}
