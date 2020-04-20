@@ -5,6 +5,28 @@
   width: 100%;
   max-width: 1184px;
   margin: 92px auto 0 auto;
-  grid-template-columns: repeat(auto-fill, 284px);
+  grid-template-columns: repeat(auto-fit, 284px);
   grid-gap: 16px;
+  justify-content: center;
+}
+
+@media all and (max-width: 1188px) {
+  .photo-grid {
+    grid-template-columns: repeat(auto-fit, 300px);
+    }
+}
+
+@media all and (max-width: 930px) {
+  .photo-grid {
+    grid-template-columns: repeat(auto-fit, 352px);
+    }
+}
+
+@media screen and (max-width: 719px) {
+  .photo-grid {
+    display: flex;
+    flex-direction: column;
+    min-width: 288px;
+    min-height: 216px;
+    }
 }

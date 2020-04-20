@@ -1,8 +1,8 @@
-.places__title {
+.place__title {
   font-style: normal;
   font-weight: 900;
   font-size: 72px;
   line-height: 76px;
   max-width: 460px;
-  border: 1px solid red;
+  margin: 0;
 }

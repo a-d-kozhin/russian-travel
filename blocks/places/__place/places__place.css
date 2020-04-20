@@ -1,9 +1,0 @@
-.place {
-  width: 984px;
-  margin: 0 auto;
-  display: grid;
-  grid-template-columns: repeat(auto-fit);
-  grid-template-areas:
-  "title url"
-  "image text";
-}

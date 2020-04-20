@@ -12,6 +12,7 @@
 @import url(./blocks/places/places.css);
 @import url(./blocks/cover/cover.css);
 @import url(./blocks/footer/footer.css);
+@import url(./blocks/place/place.css);
 
 @font-face {
   src: url(./fonts/Inter-Regular.woff) format('woff');
