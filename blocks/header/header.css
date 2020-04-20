@@ -3,11 +3,22 @@
 
 .header {
   max-width: 1184px;
-  margin: 0 auto;
-  padding-top: 23px;
+  padding: 28px 48px 0 48px;
   display: flex;
   align-items: flex-end;
-  justify-content: flex-end;
-  position: relative;
-  height: 52px;
+  justify-content: space-between;
+  max-height: 52px;
+}
+
+@media screen and (max-width: 1000px) {
+  .header {
+    padding: 28px 24px 0 24px;
+    }
+}
+
+
+@media screen and (max-width: 690px) {
+  .header {
+    padding: 16px 16px 0 16px;
+    }
 }

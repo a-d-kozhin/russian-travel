@@ -4,7 +4,7 @@
 @import url(./__span-accent/intro__span-accent.css);
 
 .intro {
-  margin: 0 auto 0 148px;
+  margin: 0 auto 0 0;
   max-width: 690px;
 }
 

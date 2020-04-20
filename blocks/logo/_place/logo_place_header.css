@@ -1,5 +1,4 @@
 .logo_place_header {
-  position: absolute;
-  top: 28px;
-  left: 0;
+  min-width: 142px;
+  max-width: 176px;
 }

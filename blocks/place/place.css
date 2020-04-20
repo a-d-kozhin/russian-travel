@@ -7,18 +7,33 @@
 
 .place {
   max-width: 984px;
-  margin: auto;
+  margin: 0 auto;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-gap: 16px;
-  row-gap: 16px;
+  column-gap: 40px;
+  row-gap: 48px;
   margin-bottom: 72px;
 }
 
 
-@media (max-width: 550px) {
+@media (max-width: 1050px) {
   .place {
-    display: flex;
-    flex-direction: column;
+    max-width: 982px;
+    margin: 80px 48px 0 48px;
+    column-gap: 32px;
+  }
+  .place:last-of-type {
+    margin: 80px 48px 92px 48px;
+  }
+}
+
+@media (max-width: 880px) {
+  .place {
+    max-width: 720px;
+    margin: 72px 24px 0 24px;
+    column-gap: 28px;
+  }
+  .place:last-of-type {
+    margin: 72px 24px 88px 24px;
   }
 }

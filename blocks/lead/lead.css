@@ -9,6 +9,13 @@
   justify-content: center;
   align-items: center;
   margin: 56px auto 0 auto;
-  max-width: calc(100% - 148px - 148px);
-  height: 1005px;
+  max-width: 984px;
+  max-height: 1005px;
+  width: 100%;
+}
+
+@media screen and (max-width: 1000px) {
+  .lead {
+    margin: 48px auto 0 auto;
+    }
 }
