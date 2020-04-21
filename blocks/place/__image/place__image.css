@@ -3,20 +3,29 @@
   min-width: 320px;
 }
 
-@media all and (max-width: 1188px) {
+@media (min-width:1024px) and (max-width: 1279px) {
   .place__image {
     max-width: 440px;
   }
 }
 
-@media all and (max-width: 1000px) {
+@media (min-width:768px) and (max-width: 1023px)  {
   .place__image {
-    max-width: 400px;
+    max-width: 340px;
   }
 }
 
-@media all and (max-width: 880px) {
+@media (min-width:425px) and (max-width: 767px) {
   .place__image {
-    max-width: 340px;
+    max-width: 320px;
+    margin: auto 30px 32px 30px;
+  }
+}
+
+
+@media (max-width: 424px) {
+  .place__image {
+    max-width: 320px;
+    margin: auto auto 32px auto;
   }
 }

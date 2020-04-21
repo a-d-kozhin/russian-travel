@@ -7,11 +7,18 @@
   margin: 0;
 }
 
+@media (min-width: 425px) and (max-width: 767px) {
+  .lead__title {
+    font-size: 59px;
+    line-height: 63px;
+  }
+}
 
-
-@media screen and (max-width: 690px) {
+@media (max-width: 424px) {
   .lead__title {
     font-size: 40px;
     line-height: 44px;
     }
 }
+
+

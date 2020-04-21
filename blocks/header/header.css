@@ -5,9 +5,10 @@
   max-width: 1184px;
   padding: 28px 48px 0 48px;
   display: flex;
-  align-items: flex-end;
+  align-items: center;
   justify-content: space-between;
   max-height: 52px;
+  box-sizing: border-box;
 }
 
 @media screen and (max-width: 1000px) {
