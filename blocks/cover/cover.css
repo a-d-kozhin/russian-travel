@@ -1,46 +1,41 @@
-@import url(./__image/cover__image.css);
+@import url(./__background/cover__background.css);
 @import url(./__title/cover__title.css);
 @import url(./__subtitle/cover__subtitle.css);
 @import url(./__link/cover__link.css);
+@import url(./__textarea/cover__textarea.css);
 
 .cover {
-  width: calc(100vw - 48px - 48px);
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
   margin: 0 auto;
-  background-image: url(../../images/cover-trains.jpg);
-  background-size: contain;
-  background-repeat: no-repeat;
-  max-width: 1184px;
-  max-height: 740px;
-  box-sizing: border-box;
+  position: relative;
+  width: 1184px;
+  height: 740px;
 }
-
 
 @media (min-width:1024px) and (max-width: 1279px) {
   .cover {
     width: 100%;
+    max-height: 640px;
   }
 }
 
 @media (min-width:768px) and (max-width: 1023px) {
-  . {
-
+  .cover {
+    width: 100%;
+    max-height: 480px;
   }
 
 }
 
 @media (min-width: 425px) and (max-width: 767px) {
-  . {
-
+  .cover {
+    width: 100%;
+    max-height: 350px;
   }
 }
 
 @media (max-width: 424px) {
-  . {
-
+  .cover {
+    width: 100%;
+    max-height: 200px;
   }
 }

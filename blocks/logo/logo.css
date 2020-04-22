@@ -8,5 +8,10 @@
   width: 100%;
   min-width: 176px;
   min-height: 52px;
+}
 
+@media (max-width: 424px) {
+  .logo {
+    min-width: 142px;
+  }
 }
