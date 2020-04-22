@@ -9,7 +9,7 @@
   margin: 92px 48px 0 48px;
   max-width: calc(100vw - 48px * 2);
   box-sizing: border-box;
-  padding-bottom: 24px;
+  padding-bottom: 22px;
 }
 
 @media (min-width:768px) and (max-width: 1023px) {
