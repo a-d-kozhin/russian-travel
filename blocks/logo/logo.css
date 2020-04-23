@@ -1,17 +1,14 @@
 @import url(../logo/_place/logo_place_header.css);
 
 .logo {
-  background-image: url(../../images/header-logo.svg);
-  background-repeat: no-repeat;
-  object-fit: contain;
   z-index: 2;
-  width: 100%;
-  min-width: 176px;
-  min-height: 52px;
+  max-width: 176px;
+  max-height: 52px;
 }
 
-@media (max-width: 424px) {
+@media (max-width: 767px) {
   .logo {
-    min-width: 142px;
+    max-width: 142px;
+    max-height: 42px;
   }
 }
